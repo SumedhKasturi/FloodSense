@@ -1,0 +1,12 @@
+# Never bake secrets into the image; compose mounts them read-only at runtime.
+.streamlit/secrets.toml
+data/cache/
+.pgeocode/
+__pycache__/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.git/
+.gitignore
+log/

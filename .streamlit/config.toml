@@ -1,0 +1,61 @@
+# FloodSense theme: a flood blue accent on a light base, Inter type, rounded cards,
+# and one set of risk colors (green low, orange elevated, red high) for banners, badges and charts.
+[theme]
+base = "light"
+primaryColor = "#0b5cad"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f2f6fa"
+textColor = "#16243a"
+borderColor = "#d5dfea"
+linkColor = "#0b5cad"
+linkUnderline = false
+codeBackgroundColor = "#f2f6fa"
+
+# Type: Inter for text and headings, JetBrains Mono for code.
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+baseFontSize = 15
+headingFontSizes = ["2.1rem", "1.45rem", "1.2rem", "1.05rem", "0.95rem", "0.85rem"]
+headingFontWeights = [700, 600, 600, 600, 600, 600]
+metricValueFontSize = "1.75rem"
+metricValueFontWeight = 600
+
+# Shape and spacing: rounded corners, tighter page padding.
+baseRadius = "0.75rem"
+buttonRadius = "0.6rem"
+showWidgetBorder = true
+showSidebarBorder = true
+paddingTop = "1.25rem"
+paddingBottom = "2rem"
+
+# Risk colors. st.success/st.error read the green/red palette and st.warning reads the yellow one,
+# so yellow is set to the same warm orange family as the "orange" badges.
+greenColor = "#1f8a4c"
+greenBackgroundColor = "#e4f4ea"
+greenTextColor = "#166b3a"
+orangeColor = "#d9690f"
+orangeBackgroundColor = "#fdeedd"
+orangeTextColor = "#9a4405"
+yellowColor = "#c98a00"
+yellowBackgroundColor = "#fdf0db"
+yellowTextColor = "#8f4f00"
+redColor = "#cc2f2f"
+redBackgroundColor = "#fdeaea"
+redTextColor = "#a21f1f"
+blueColor = "#0b5cad"
+blueBackgroundColor = "#e6f0fa"
+blueTextColor = "#0a4f94"
+
+chartCategoricalColors = ["#0b5cad", "#0f9d9a", "#e8833a", "#7a5cc4", "#d64545", "#c9a227", "#5f7487"]
+dataframeHeaderBackgroundColor = "#eaf1f8"
+dataframeBorderColor = "#d5dfea"
+
+[theme.sidebar]
+backgroundColor = "#eaf1f8"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#16243a"
+borderColor = "#d5dfea"
+primaryColor = "#0b5cad"
+linkColor = "#0b5cad"
+paddingTop = "1rem"
